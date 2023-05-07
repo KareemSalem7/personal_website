@@ -1,8 +1,8 @@
-.HomePage {
+.Page {
     text-align: center;
   }
   
-  .HomePage-header {
+  .Page-header {
     background-color: #282c34;
     display: flex;
     flex-direction: column;
@@ -22,6 +22,8 @@
   
   .title {
     margin: 0;
+    margin-right: 80px;
+    margin-left: 40px;
   }
   
   .menu ul {
@@ -34,11 +36,17 @@
   }
   
   .menu li {
-    margin-right: 20px;
+    margin-right: 50px;
+    font-size: 40px;
   }
   
   .menu li:last-child {
     margin-right: 0;
+  }
+
+  .menu a {
+    color: #61dafb; 
+    text-decoration: none;
   }
   
   .App-link {
