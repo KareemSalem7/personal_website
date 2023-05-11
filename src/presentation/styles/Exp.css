@@ -1,7 +1,17 @@
+body {
+  background-color: #fdfbf6;
+  margin: 0;
+  padding: 0;
+}
+
+
 .Page {
   text-align: center;
-  background-color: #fdfbf6;
+  height: 100%;
+  margin: 0;
+  padding: 0;
 }
+
 
 .Page-header {
   background-color: #fdfbf6;
@@ -9,8 +19,11 @@
   flex-direction: column;
   align-items: flex-start;
   font-size: calc(10px + 2vmin);
-  color: white;
+  border-bottom-style: dashed;
+  border-bottom-width: 2px;
+  border-bottom-color: black;
 }
+
 
 .header-box {
   display: flex;
@@ -21,12 +34,14 @@
   justify-content: space-between;
 }
 
+
 .title {
   color: #232520;
   margin: 0;
   margin-right: 80px;
   margin-left: 40px;
 }
+
 
 .menu ul {
   list-style: none;
@@ -37,20 +52,34 @@
   padding: 0;
 }
 
+
 .menu li {
   margin-right: 50px;
   font-size: 35px;
 }
 
+
 .menu li:last-child {
   margin-right: 0;
 }
 
+
 .menu a {
-  color: #232520; 
+  color: #232520;
   text-decoration: none;
 }
 
-.App-link {
-  color: #61dafb;
+
+.exp-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  align-items: left;
+  text-align: left; 
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-top: 50px;
+  font-size: 20px;
+  padding: 20px;
+  flex: 1;
 }

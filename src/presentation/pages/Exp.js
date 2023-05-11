@@ -1,12 +1,15 @@
-import '../styles/EduSki.css';
+import '../styles/Exp.css';
+import Header from "../components/Header.js";
 
-function Exp() {
+
+function Exp() {  // Declaration of the Ski component
   return (
-    <div className="EduSki">
-      <header className="EduSki-header">
-        <h1> Kareem Salem </h1>
-        <p> I'm a second year student at UOFT. </p>
-      </header>
+    <div className="Page">
+      <Header/>  
+      <main className="exp-container">
+        <h2 style={{ marginBottom: '10px'}}>AssetFlo</h2>
+        <p style={{ margin: '0px'}}>Come back end of August!</p>
+      </main>
     </div>
   );
 }
