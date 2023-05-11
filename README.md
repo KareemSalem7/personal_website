@@ -17,14 +17,18 @@ This is a personal project website showcasing my portfolio, projects, and other 
 ## Installation
 Follow the steps below to set up the project locally:
 
-1. Clone the repository and navigate to the project directory
+1.
+Clone the repository and navigate to the project directory
 git clone https://github.com/your-username/your-repo.git
 cd your-repo
 
-2. Install the dependencies
+2.
+Install the dependencies
 npm install
 
-3. Start the development server
+3.
+Start the development server
 npm start
 
-4. Open your browser and visit http://localhost:3000 to view the website locally.
+4.
+Open your browser and visit http://localhost:3000 to view the website locally.
