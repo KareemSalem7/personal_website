@@ -21,7 +21,7 @@ Follow the steps below to set up the project locally:
 git clone https://github.com/your-username/your-repo.git
 cd your-repo
 
-2.Install the dependencies
+2. Install the dependencies
 npm install
 
 3. Start the development server
