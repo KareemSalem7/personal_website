@@ -14,10 +14,12 @@ This is a personal project website showcasing my portfolio, projects, and other 
 - Contact page with a contact form to get in touch with me
 - Responsive design for optimal viewing on various devices
 
-# Prerequisite
+# Prerequisites
+```
 npm install
 npm install react-router-dom@6
 npm install bootstrap
+```
 
 ## Installation
 Follow the steps below to set up the project locally:
