@@ -24,7 +24,7 @@ function HomePage() {
           </p>
         </div>
         <div className="profile-picture-section">
-          <img src={ProfilePicture} alt="Profile Picture" />
+          <img src={ProfilePicture}/>
         </div>
       </main>
     </div>
