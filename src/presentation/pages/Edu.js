@@ -42,7 +42,7 @@ function EduSki() {
           I play intermural soccer as a team member on the Computer Science Student's Union soccer team.
           Below is a photo of us after a big win!
           </p>
-          <img src={TeamPhoto} alt="Team Photo" />
+          <img src={TeamPhoto} />
         </div>
       </main>
     </div>
