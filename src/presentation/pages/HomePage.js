@@ -24,6 +24,7 @@ function HomePage() {
           </p>
         </div>
         <div className="profile-picture-section">
+          {/*eslint-disable-next-line jsx-a11y/alt-text*/}
           <img src={ProfilePicture}/>
         </div>
       </main>
