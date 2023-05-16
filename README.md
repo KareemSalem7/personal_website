@@ -1,5 +1,5 @@
 # Personal Project Website
-Personal website showcasing my skills, portfolio and a little about me as a software developer.
+Personal website showcasing my skills, portfolio, and a little about me as a software developer.
 
 ## Technologies Used
 - CSS/HTML
