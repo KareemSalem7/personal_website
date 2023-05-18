@@ -19,6 +19,7 @@ Personal website showcasing my skills, portfolio, and a little about me as a sof
 npm install
 npm install react-router-dom@6
 npm install bootstrap
+npm install framer-motion
 ```
 
 ## Installation
