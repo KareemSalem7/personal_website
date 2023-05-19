@@ -1,11 +1,12 @@
 import "../styles/Proj.css";
 import Header from "../components/Header.js";
 
+import React from 'react';
 
 function Proj() {
   return (
     <div className="Page">
-      <Header/>
+      <Header activePage={5}/>
       <div className="project">
         <h2>Promptly Chatbot Analyser</h2>
         <p>September - December 2022</p>

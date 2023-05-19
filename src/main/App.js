@@ -1,5 +1,5 @@
 import {BrowserRouter as Router, Route, Routes} from 'react-router-dom';
-import Home from "../presentation/pages/HomePage";
+import Home from "../presentation/pages/Home";
 import Edu from "../presentation/pages/Edu";
 import Ski from "../presentation/pages/Ski";
 import Exp from "../presentation/pages/Exp";
@@ -13,8 +13,8 @@ function App() {
       <div>
         {/*Wrap Route components in a Routes component */}
         <Routes>
-          {/*Set the HomePage as the default Route*/}
-          <Route path="/home" element={<Home />} />
+          {/*homepage is set as the default Route*/}
+          <Route path="/homepage" element={<Home />} />
           <Route path="/edupage" element={<Edu />} />
           <Route path="/skipage" element={<Ski />} />
           <Route path="/exppage" element={<Exp />} />

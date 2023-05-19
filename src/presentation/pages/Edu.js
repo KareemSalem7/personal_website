@@ -2,13 +2,15 @@ import '../styles/Edu.css';
 import Header from "../components/Header.js";
 import TeamPhoto from '../../assets/TeamPhoto.JPG';
 
+import React from 'react';
+
 function EduSki() {
   return (
     <div className="Page">
-      <Header/>
+      <Header activePage={2}/>
       <main className="main-container">
         <div className="education-section">
-        <h2 style={{ marginBottom: '10px', padding: '0', textAlign: 'center'}}>Education</h2>
+        <h2 style={{ marginBottom: '10px', padding: '0'}}>Education</h2>
         <p style={{ margin: '0', padding: '0' }}>
         I am currently pursuing a Computer Science Specialist program as part of a Bachelor Of Science degree 
         at the University Of Toronto, St. George Campus. Graduating summer 2025. GPA: 3.75.
@@ -30,7 +32,7 @@ function EduSki() {
         </ul>
         </div>
         <div className="extra-section">
-        <h2 style={{ marginBottom: '10px', padding: '0', textAlign: 'center'}}>Technology Leadership Initiative</h2>
+        <h2 style={{ marginBottom: '10px', padding: '0'}}>Technology Leadership Initiative</h2>
           <p style={{ margin: '0', padding: '0' }}>
           Cohort of Computer Science students that I'm a part of where we engange in industry-integrated
           learning and workshops focused on building technical and leadership skills. Coordinated 
