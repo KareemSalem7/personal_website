@@ -28,7 +28,7 @@ npm install framer-motion
 Follow the steps below to set up the project locally:
 
 1.Clone the repository and navigate to the project directory
-git clone https://github.com/your-username/your-repo.git
+git clone https://github.com/your-username/personal_website.git
 cd your-repo
 
 2.Install the dependencies
