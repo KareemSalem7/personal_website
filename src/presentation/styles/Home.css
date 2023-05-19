@@ -38,6 +38,13 @@ body {
   margin-left: 40px;
 }
 
+.menu {
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+  flex: 1; 
+}
+
 .menu ul {
   list-style: none;
   display: flex;
@@ -84,4 +91,28 @@ body {
   justify-content: center;
   align-items: center;
   padding: 20px;
+}
+
+.icons {
+  justify-content: flex-end; 
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+}
+
+.icons img {
+  width: 50px;
+  height: 50px;
+  margin-left: 50px;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.save-button {
+  padding: 0 1rem;
+  margin: 2rem auto auto 0;
+  background: var(--gradient);
+  color: var(--dark);
 }
