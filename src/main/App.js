@@ -14,7 +14,7 @@ function App() {
         {/*Wrap Route components in a Routes component */}
         <Routes>
           {/*homepage is set as the default Route*/}
-          <Route path="/homepage" element={<Home />} />
+          <Route path="" element={<Home />} />
           <Route path="/edupage" element={<Edu />} />
           <Route path="/skipage" element={<Ski />} />
           <Route path="/exppage" element={<Exp />} />

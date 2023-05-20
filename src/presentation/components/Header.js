@@ -19,7 +19,7 @@ const Header = ({ activePage }) => {
         <h1 className="title">Kareem Salem</h1>
         <div className="menu">
           <ul>
-            <li><a className={getBoldTitle(1)} href="homepage">Home</a></li>
+            <li><a className={getBoldTitle(1)} href="/">Home</a></li>
             <li><a className={getBoldTitle(2)} href="edupage">Education</a></li>
             <li><a className={getBoldTitle(3)} href="skipage">Skills</a></li>
             <li><a className={getBoldTitle(4)} href="exppage">Experience</a></li>
