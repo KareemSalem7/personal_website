@@ -7,6 +7,7 @@ Personal website showcasing my skills, portfolio, and a little about me as a sof
 - React
 - Bootstrap
 - Framer Motion
+- Jest
 
 ## Features
 - Home page showcasing an introduction and summary of my skills and experiences
@@ -22,6 +23,7 @@ npm install react-router-dom@6
 npm install styled-components@5.3.10
 npm install bootstrap
 npm install framer-motion
+npm install --save-dev jest
 ```
 
 ## Installation
