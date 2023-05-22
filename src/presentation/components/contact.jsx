@@ -33,8 +33,8 @@ const Contact = ({ handleClose }) => {
         <input type="text" name="fullName" required/>
         <label>Email</label>
         <input type="email" name="email" required/>
-        <label>Phone Number</label>
-        <input type="phone" name="phone" required/>
+        <label>Phone Number (xxx-xxx-xxxx)</label>
+        <input type="phone" name="phone" pattern="\d{3}-\d{3}-\d{4}" required/>
         <label>Message</label>
         <textarea name="message" required/>
         <input type="submit" value="Submit" />
