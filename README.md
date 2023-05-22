@@ -7,6 +7,8 @@ Personal website showcasing my skills, portfolio, and a little about me as a sof
 - React
 - Bootstrap
 - Framer Motion
+- Jest
+- Babel
 
 ## Features
 - Home page showcasing an introduction and summary of my skills and experiences
@@ -22,6 +24,8 @@ npm install react-router-dom@6
 npm install styled-components@5.3.10
 npm install bootstrap
 npm install framer-motion
+npm install --save-dev jest
+npm install --save-dev @babel/core @babel/preset-env @babel/preset-react babel-jest
 ```
 
 ## Installation
@@ -38,4 +42,4 @@ Follow the steps below to set up the project locally:
 - npm start
 
 4.Open your browser and view website
-- Open http://localhost:3000/homepage to view the website locally.
+- Open http://localhost:3000 to view the website locally.
