@@ -8,8 +8,8 @@ function Ski() {
     <div className="Page">
       <Header activePage={3}/>
       <p style={{ marginTop: '50px', marginBottom: '0px', padding: '0' , fontSize: "20px"}}>
-      In my 2 years of experience at university I've developed strong skills in Clean Architecture, 
-      Front-end design and Full stack application development.
+      As a 3rd year University of Toronto student I've developed strong skills in Clean Architecture, 
+      Front-end design and Full stack application development
       </p>
       <main className="ski-container">
         <div className="prog-section">

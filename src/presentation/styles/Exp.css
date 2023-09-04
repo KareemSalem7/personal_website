@@ -10,10 +10,22 @@ body {
   justify-content: left;
   align-items: left;
   text-align: left; 
-  margin-left: 100px;
+  margin-left: 50px;
   margin-right: 100px;
-  margin-top: 50px;
   font-size: 20px;
   padding: 20px;
   flex: 1;
+}
+
+.job-details {
+  display: flex;
+  justify-content: space-between;
+}
+
+.job-details .left {
+  text-align: left;
+}
+
+.job-details .right {
+  text-align: right;
 }

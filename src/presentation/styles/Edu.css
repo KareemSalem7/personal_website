@@ -9,7 +9,7 @@ body {
   flex-direction: row;
   margin-left: 100px;
   margin-right: 100px;
-  margin-top: 50px;
+  margin-top: 10px;
 }
 
 .education-section {
@@ -28,4 +28,9 @@ body {
   text-align: left; 
   font-size: 20px;
   padding: 20px;
+}
+
+.link-style {
+  text-decoration: none;
+  color: inherit; 
 }

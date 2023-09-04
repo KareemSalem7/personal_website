@@ -5,11 +5,16 @@ body {
 }
 
 .project {
+  display: flex;
+  flex-direction: column;
   justify-content: left;
   align-items: left;
-  text-align: left;
+  text-align: left; 
+  margin-left: 50px;
+  margin-right: 100px;
   font-size: 20px;
-  margin: 50px;
+  padding: 20px;
+  flex: 1;
 }
 
 h2 {
@@ -17,8 +22,19 @@ h2 {
   margin-bottom: 10px;
 }
 
+.link-style {
+  text-decoration: none;
+  color: inherit; 
+}
+
 p {
   margin: 5px 0;
+}
+
+.project-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 ul {
