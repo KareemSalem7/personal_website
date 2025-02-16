@@ -16,20 +16,25 @@ function Ski() {
         <h2 style={{ marginBottom: '10px', padding: '0'}}>Programming Languages</h2>
         <ul style={{ margin: '0', padding: '0', listStyleType: 'disc' }}>
           <li>HTML/CSS</li>
-          <li>Python</li>
-          <li>Java</li>
           <li>C</li>
+          <li>Go (Golang)</li>
+          <li>Java</li>
           <li>JavaScript</li>
+          <li>Kotlin</li>
+          <li>Python</li>
           <li>SQL</li>
+          <li>TypeScript</li>
         </ul>
         </div>
         <div className="tech-section">
         <h2 style={{ marginBottom: '10px', padding: '0'}}>Tools & Technologies</h2>
         <ul style={{ margin: '0', padding: '0', listStyleType: 'disc' }}>
-          <li>Web Development: React, Boostrap, Framer Motion, Figma</li>
+          <li>Web Development: React, Next.js, Svelte, Bootstrap, Tailwind CSS, Framer Motion, Figma</li>
           <li>Mobile Development: Android Studio, Kotlin</li>
+          <li>Backend Development: Django, Flask, Spring Boot, REST API, MQTT</li>
+          <li>Cloud & DevOps: AWS, DevSecOps, CI/CD</li>
           <li>Testing: JUnit, Jest</li>
-          <li>Other: Git, MongoDB, MQTT, PyWebIO, RStudio, Spring Boot, Unity, Unix Shell Scripting</li>
+          <li>Tools & Other: Git, MongoDB, Postman, PyWebIO, RStudio, Unity, Unix Shell Scripting</li>
         </ul>
         </div>
       </main>
