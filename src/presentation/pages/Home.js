@@ -21,9 +21,11 @@ function HomePage() {
         <div className="about-me-section">
           <h2 style={{ marginBottom: '10px', padding: '0' }}>About Me</h2>
           <p style={{ margin: '0', padding: '0' }}>
-          Hola Amigos! I'm a Computer Science Specialist student at the University of Toronto. I have a passion for full stack application
-          and enjoy creating solutions to optimize problems aswell as fun games for people to enjoy. I'm Egyptian and for fun I enjoy playing 
-          soccer, chess, and cooking. Here you can check out some my education, skills, experience, and projects.
+          Hola Amigos! I'm a BizOps Engineer at Mastercard and Computer Science Specialist student at the University 
+          of Toronto. I have a passion for full stack application and enjoy creating solutions to optimize problems 
+          aswell as fun games for people to enjoy. I'm Egyptian <span role="img" aria-label="rocket">🇪🇬</span> and for 
+          fun I enjoy playing soccer, exercising, reading, and cooking. Here you can check out my education, skills, 
+          experience, and projects.
           </p>
           <br/>
           <h2 style={{ marginBottom: '10px', padding: '0' }}>Contact</h2>

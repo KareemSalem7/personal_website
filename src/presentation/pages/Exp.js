@@ -1,6 +1,9 @@
 import '../styles/Exp.css';
 import Header from "../components/Header.js";
 import AssetfloLogo from '../../assets/AssetfloLogo.png';
+import SeeRemLogo from '../../assets/seeRemLogo.png';
+import FlippLogo from '../../assets/flippLogo.png';
+import MastercardLogo from '../../assets/mastercardLogo.png';
 
 import React from 'react';
 
@@ -9,6 +12,50 @@ function Exp() {
     <div className="Page">
       <Header activePage={4} />
       <main className="exp-container">
+      <div className="header-container">
+          <h2 style={{ marginBottom: '10px' }}>Mastercard</h2>
+          <div className="job-details">
+            <span className="left">BizOps Engineer</span>
+            <span style={{ marginBottom: '10px' }} className="right">May - August 2025</span>
+          </div>
+        </div>
+        <ul>
+          <li>TBD</li>
+        </ul>
+
+        <img src={MastercardLogo} style={{ maxHeight: '200px', width: 'auto', marginBottom: '50px', margin: '0 auto', display: 'block' }} alt="Mastercard Logo" />
+
+      <div className="header-container">
+          <h2 style={{ marginBottom: '10px' }}>Flipp</h2>
+          <div className="job-details">
+            <span className="left">Software Engineer</span>
+            <span style={{ marginBottom: '10px' }} className="right">May - December 2024</span>
+          </div>
+        </div>
+        <ul>
+          <li>Spearheaded the development of a publications platform using TypeScript/Go micro front ends to compose federated components, allowing retailers to leverage consumer data and transform flyers into dynamic online advertisements</li>
+          <li>Proposed and built UI pagination, lowering publications loading time by 25% and unlocking 4 additional merchants</li>
+          <li>Configured internal debugger tool, streamlining issue resolution and debugging efficiency by 50% for colleagues</li>
+          <li>Introduced ESLint pre-commit code formatting, identifying errors and reducing code review cycle time by 1-2 days</li>
+        </ul>
+
+        <img src={FlippLogo} style={{ maxHeight: '200px', width: 'auto', marginBottom: '50px', margin: '0 auto', display: 'block' }} alt="Flipp Logo" />
+
+        <div className="header-container">
+          <h2 style={{ marginBottom: '10px' }}>SeeRem</h2>
+          <div className="job-details">
+            <span className="left">Software Developer</span>
+            <span style={{ marginBottom: '10px' }} className="right">September - December 2023</span>
+          </div>
+        </div>
+        <ul>
+          <li>Led a team of 6 to build a JavaScript application with a MongoDB database (MERN stack) bridging the gap between workers, contractors, and owners to facilitate efficient communication and status updates on remote worksites</li>
+          <li>Directed adoption of Agile and DevSecOps into SDLC by embedding automated security tests into CI/CD pipelines</li>
+          <li>Engineered geolocational plotting system resulting in a 15-25% increase in worker retention in assigned job sites</li>
+        </ul>
+
+        <img src={SeeRemLogo} style={{ maxWidth: '600px', height: 'auto', marginBottom:'50px', margin: '0 auto', display: 'block' }} alt="SeeRem Logo" />
+
         <div className="header-container">
           <h2 style={{ marginBottom: '10px' }}>Assetflo</h2>
           <div className="job-details">
@@ -22,10 +69,9 @@ function Exp() {
           <li>Engineered Simulator from conception to creation, reducing physical trips by 50% and saving 1-5 hours per trip</li>
           <li>Initiated Jest test-driven development covering 90% of attachment use cases, identifying geolocation errors and actively contributing to the resolution of 5G/IOX location calculation bottlenecks</li>
         </ul>
+
+        <img src={AssetfloLogo} style={{ maxWidth: '600px', height: 'auto', marginBottom:'50px', margin: '0 auto', display: 'block' }} alt="Assetflo Logo" />
       </main>
-    
-    {/*eslint-disable-next-line jsx-a11y/alt-text*/}
-    <img src={AssetfloLogo}/>
     </div>
   );
 }

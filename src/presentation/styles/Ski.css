@@ -5,11 +5,14 @@ body {
 }
 
 .ski-container {
+  padding-left: 200px;
+  padding-right: 200px;
+  margin: 0 auto;
+}
+
+.inner-ski-container {
   display: flex;
   flex-direction: row;
-  margin-left: 100px;
-  margin-right: 100px;
-  margin-top: 50px;
 }
 
 .prog-section {
