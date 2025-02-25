@@ -3,7 +3,7 @@ import Header from "../components/Header.js";
 import AssetfloLogo from '../../assets/AssetfloLogo.png';
 import SeeRemLogo from '../../assets/seeRemLogo.png';
 import FlippLogo from '../../assets/flippLogo.png';
-import MastercardLogo from '../../assets/mastercardLogo.png';
+// import MastercardLogo from '../../assets/mastercardLogo.png';
 
 import React from 'react';
 
