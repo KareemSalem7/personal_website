@@ -12,7 +12,7 @@ function Exp() {
     <div className="Page">
       <Header activePage={4} />
       <main className="exp-container">
-      <div className="header-container">
+      {/* <div className="header-container">
           <h2 style={{ marginBottom: '10px' }}>Mastercard</h2>
           <div className="job-details">
             <span className="left">BizOps Engineer</span>
@@ -23,7 +23,7 @@ function Exp() {
           <li>TBD</li>
         </ul>
 
-        <img src={MastercardLogo} style={{ maxHeight: '200px', width: 'auto', marginBottom: '50px', margin: '0 auto', display: 'block' }} alt="Mastercard Logo" />
+        <img src={MastercardLogo} style={{ maxHeight: '200px', width: 'auto', marginBottom: '50px', margin: '0 auto', display: 'block' }} alt="Mastercard Logo" /> */}
 
       <div className="header-container">
           <h2 style={{ marginBottom: '10px' }}>Flipp</h2>
