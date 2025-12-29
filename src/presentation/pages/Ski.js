@@ -7,6 +7,7 @@ function Ski({ showHeader = true }) {
   return (
     <div className="Page">
       {showHeader && <Header activePage={3}/>}
+      <div className="section-heading">Skills</div>
       <main className="ski-container">
         <p style={{ marginBottom: '20px', padding: '0' , fontSize: "20px"}}>
         As a 5th year University of Toronto student I've developed strong skills in Clean Architecture, 

@@ -3,6 +3,7 @@ import { motion } from 'framer-motion/dist/framer-motion'
 import Backdrop from "../Backdrop";
 import React from 'react';
 import Contact from "../contact";
+import ReactDOM from 'react-dom';
 
 const dropIn = {
     hidden: {
@@ -26,7 +27,7 @@ const dropIn = {
 };
 
 const Modal = ({ handleClose, text}) => {
-    return (
+    return ReactDOM.createPortal(
         <Backdrop onClick={handleClose}>
             <motion.div
                 onClick={(e) => e.stopPropagation()}
@@ -36,9 +37,10 @@ const Modal = ({ handleClose, text}) => {
                 animate="visible"
                 exit="exit"
             >
-            <Contact handleClose={handleClose}/>
+                <Contact handleClose={handleClose}/>
             </motion.div>
-        </Backdrop>
+        </Backdrop>,
+        document.body
     );
 };
 

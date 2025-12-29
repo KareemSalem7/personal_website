@@ -11,6 +11,7 @@ function Edu({ showHeader = true }) {
   return (
     <div className="Page">
       {showHeader && <Header activePage={2}/>}
+      <div className="section-heading">Education</div>
       <main className="main-container">
         <div className="education-top">
           <h2 className="section-title" style={{ marginBottom: '6px' }}>Education</h2>

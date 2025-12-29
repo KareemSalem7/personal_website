@@ -9,6 +9,7 @@ function Proj({ showHeader = true }) {
   return (
     <div className="Page">
       {showHeader && <Header activePage={5}/>}
+      <div className="section-heading">Projects</div>
       <div className="project">
         <div className="project-card">
           <h2>Fantasy Football FC</h2>

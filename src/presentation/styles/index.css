@@ -8,6 +8,44 @@ body {
 
 section {
   scroll-margin-top: 110px;
+  padding: 14px 0 24px 0;
+  background: transparent;
+}
+
+a.link-style:hover {
+  color: var(--accent);
+}
+
+.card,
+.exp-card,
+.project-card,
+.section-card,
+.pill-card,
+.prog-section,
+.tech-section {
+  animation: fadeUp 0.45s ease both;
+}
+
+.section-heading {
+  max-width: 1280px;
+  margin: 8px auto 4px auto;
+  padding: 0 24px;
+  font-size: 13px;
+  letter-spacing: 0.4px;
+  text-transform: uppercase;
+  color: var(--accent);
+  opacity: 0.85;
+}
+
+@keyframes fadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(12px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
 code {

@@ -11,6 +11,7 @@ function Exp({ showHeader = true }) {
   return (
     <div className="Page">
       {showHeader && <Header activePage={4} />}
+      <div className="section-heading">Experience</div>
       <main className="exp-container">
         <div className="exp-card">
           <div className="header-container">

@@ -15,6 +15,7 @@ function HomePage({ showHeader = true }) {
   return (
     <div className="Page" id="home">
       {showHeader && <Header activePage={1} />}
+      <div className="section-heading">Home</div>
       <main className="main-container">
         <div className="about-me-section two-col">
           {/* LEFT: text card */}

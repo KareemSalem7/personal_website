@@ -19,7 +19,7 @@
 }
 
 .modal {
-  width: min(520px, 90vw);
+  width: min(700px, 94vw);
   margin: auto;
   padding: 22px 24px 26px;
   border-radius: 16px;
