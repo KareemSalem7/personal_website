@@ -3,12 +3,41 @@ import Header from "../components/Header.js";
 import React from 'react';
 import petImage from '../../assets/petImage.png';
 import promptlyImage from '../../assets/promptlyImage.png';
+import fantasyFootballImg from '../../assets/fantasyFootballFC.png';
 
 function Proj() {
   return (
     <div className="Page">
       <Header activePage={5}/>
       <div className="project">
+        <h2>Fantasy Football FC</h2>
+        <div className="project-item">
+          <p className="left">C++, Python, PostgreSQL, Docker, Next.js, Tailwind CSS</p>
+          <p className="right">Feb. 2025 - Present</p>
+        </div>
+        <p>
+          <ul>
+            <li>Created a full-stack Premier League fantasy sports app with Google OAuth, team drafting, player trades, and a global leaderboard.</li>
+            <li>Integrated AI-driven features including team performance and bot trade evaluations, raising weekly roster activity by 30–50%.</li>
+            <li>Built scheduled GitHub Actions workflow to update 700+ players’ data for up-to-date standings and player performance records.</li>
+          </ul>
+        </p>
+        <div className="web-app-preview" style={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+          <h5 style={{ marginRight: '20px', cursor: 'pointer', display: 'flex', alignItems: 'center', marginBottom:"60px" }}>
+            <a href="https://fantasyfootballfc.netlify.app/" target="_blank" rel="noopener noreferrer" className="link-style">
+              Check it out here <span role="img" aria-label="right arrow">➡️</span>
+            </a>
+          </h5>
+          <a href="https://fantasyfootballfc.netlify.app/" target="_blank" rel="noopener noreferrer">
+            <img 
+              src={fantasyFootballImg}
+              alt="Fantasy Football FC Preview" 
+              className="web-app-image"
+              style={{ maxHeight: '200px', width: 'auto', marginBottom: '20px', cursor: 'pointer' }}
+            />
+          </a>
+        </div>
+
         <h2>
           <a href="https://csc309-petpal-client.vercel.app/" className="link-style">Pet Adoption Web Application</a>
         </h2>
@@ -53,6 +82,9 @@ function Proj() {
           <p className="left">Natural Language Understanding Application</p>
           <p className="right">September - December 2022</p>
         </div>
+        <p style={{ margin: '0 0 8px 0', fontStyle: 'italic' }}>
+          AI Chatbot Analyser | TLI Competition Finalist | JavaScript, AWS, Jest, Babel, Framer Motion, NLP
+        </p>
         <p>
           <ul>
             <li>
@@ -93,6 +125,9 @@ function Proj() {
           <p className="left">Financial Chrome Extension</p>
           <p className="right">June - August 2022</p>
         </div>
+        <p style={{ margin: '0 0 8px 0', fontStyle: 'italic' }}>
+          Quick Stocks | Chrome DevTools, JavaScript, HTML/CSS, FinTech
+        </p>
         <p>
           <ul>
             <li>

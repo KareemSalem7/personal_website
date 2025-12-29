@@ -21,8 +21,8 @@ function HomePage() {
         <div className="about-me-section">
           <h2 style={{ marginBottom: '10px', padding: '0' }}>About Me</h2>
           <p style={{ margin: '0', padding: '0' }}>
-          Hola Amigos! I'm a 4th year Computer Science Specialist student at the University 
-          of Toronto. I have a passion for full stack application and enjoy creating solutions to optimize problems 
+          Hola Amigos! I'm a 5th year Computer Science Specialist student at the University 
+          of Toronto, based in Burlington, Ontario, Canada. I have a passion for full stack application and enjoy creating solutions to optimize problems 
           aswell as fun games for people to enjoy. I'm Egyptian <span role="img" aria-label="rocket">🇪🇬</span> and for 
           fun I enjoy playing soccer, exercising, reading, and cooking. Here you can check out my education, skills, 
           experience, and projects.

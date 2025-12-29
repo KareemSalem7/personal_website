@@ -32,3 +32,9 @@ body {
 .job-details .right {
   text-align: right;
 }
+
+.job-skills {
+  font-size: 16px;
+  color: #374151;
+  margin: 4px 0 10px 0;
+}
