@@ -1,6 +1,7 @@
 import '../styles/Home.css';
 import Header from "../components/Header.js";
 import ProfilePicture from '../../assets/ProfilePicture.png';
+import ResumePDF from '../../assets/Kareem_Salem_resume.pdf';
 
 import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion/dist/framer-motion';
@@ -39,14 +40,23 @@ function HomePage({ showHeader = true }) {
               <br />
             </p>
 
-            <motion.button
-              whileHover={{ scale: 1.05 }}
-              whileTap={{ scale: 0.95 }}
-              className="save-button"
-              onClick={() => (modalOpen ? close() : open())}
-            >
-              Write me a message!
-            </motion.button>
+          <motion.button
+            whileHover={{ scale: 1.05 }}
+            whileTap={{ scale: 0.95 }}
+            className="save-button"
+            onClick={() => (modalOpen ? close() : open())}
+          >
+            Write me a message!
+          </motion.button>
+
+          <a
+            href={ResumePDF}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="resume-link"
+          >
+            View Resume
+          </a>
 
             <AnimatePresence initial={false} mode="wait" onExitComplete={() => null}>
               {modalOpen && <Modal modalOpen={modalOpen} handleClose={close} />}
