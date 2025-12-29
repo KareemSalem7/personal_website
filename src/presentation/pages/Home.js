@@ -6,15 +6,15 @@ import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion/dist/framer-motion';
 import Modal from "../components/Modal/index";
 
-function HomePage() {
+function HomePage({ showHeader = true }) {
   const [modalOpen, setModalOpen] = useState(false);
 
   const close = () => setModalOpen(false);
   const open = () => setModalOpen(true);
 
   return (
-    <div className="Page">
-      <Header activePage={1} />
+    <div className="Page" id="home">
+      {showHeader && <Header activePage={1} />}
       <main className="main-container">
         <div className="about-me-section two-col">
           {/* LEFT: text card */}

@@ -4,12 +4,12 @@ import LinkedInIcon from '../../assets/LinkedInIcon.png';
 
 import React from 'react';
 
-const Header = ({ activePage }) => {
-  const getBoldTitle = (page) => {
-    if (activePage === page) {
-      return 'bold';
-    } else {
-      return 'regular';
+const Header = ({ activeSection = 'home', onNavigate }) => {
+  const isActive = (id) => (activeSection === id ? 'bold' : 'regular');
+
+  const handleClick = (id) => (e) => {
+    if (onNavigate) {
+      onNavigate(id, e);
     }
   };
 
@@ -19,11 +19,11 @@ const Header = ({ activePage }) => {
         <h1 className="title">Kareem Salem</h1>
         <div className="menu">
           <ul>
-            <li><a className={getBoldTitle(1)} href="/">Home</a></li>
-            <li><a className={getBoldTitle(2)} href="edupage">Education</a></li>
-            <li><a className={getBoldTitle(3)} href="skipage">Skills</a></li>
-            <li><a className={getBoldTitle(4)} href="exppage">Experience</a></li>
-            <li><a className={getBoldTitle(5)} href="projectspage">Projects</a></li>
+            <li><a className={isActive('home')} href="#home" onClick={handleClick('home')}>Home</a></li>
+            <li><a className={isActive('education')} href="#education" onClick={handleClick('education')}>Education</a></li>
+            <li><a className={isActive('skills')} href="#skills" onClick={handleClick('skills')}>Skills</a></li>
+            <li><a className={isActive('experience')} href="#experience" onClick={handleClick('experience')}>Experience</a></li>
+            <li><a className={isActive('projects')} href="#projects" onClick={handleClick('projects')}>Projects</a></li>
           </ul>
         </div>
         <div className="icons">

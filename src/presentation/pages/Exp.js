@@ -7,10 +7,10 @@ import MastercardLogo from '../../assets/mastercardLogo.png';
 
 import React from 'react';
 
-function Exp() {
+function Exp({ showHeader = true }) {
   return (
     <div className="Page">
-      <Header activePage={4} />
+      {showHeader && <Header activePage={4} />}
       <main className="exp-container">
         <div className="exp-card">
           <div className="header-container">

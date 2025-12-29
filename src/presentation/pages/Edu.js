@@ -7,10 +7,10 @@ import TLIPhoto from '../../assets/TLIPhoto.png';
 
 import React from 'react';
 
-function Edu() {
+function Edu({ showHeader = true }) {
   return (
     <div className="Page">
-      <Header activePage={2}/>
+      {showHeader && <Header activePage={2}/>}
       <main className="main-container">
         <div className="education-top">
           <h2 className="section-title" style={{ marginBottom: '6px' }}>Education</h2>

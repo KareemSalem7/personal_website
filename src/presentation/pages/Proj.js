@@ -5,10 +5,10 @@ import petImage from '../../assets/petImage.png';
 import promptlyImage from '../../assets/promptlyImage.png';
 import fantasyFootballImg from '../../assets/fantasyFootballFC.png';
 
-function Proj() {
+function Proj({ showHeader = true }) {
   return (
     <div className="Page">
-      <Header activePage={5}/>
+      {showHeader && <Header activePage={5}/>}
       <div className="project">
         <div className="project-card">
           <h2>Fantasy Football FC</h2>

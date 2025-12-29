@@ -3,10 +3,10 @@ import Header from "../components/Header.js";
 
 import React from 'react';
 
-function Ski() {
+function Ski({ showHeader = true }) {
   return (
     <div className="Page">
-      <Header activePage={3}/>
+      {showHeader && <Header activePage={3}/>}
       <main className="ski-container">
         <p style={{ marginBottom: '20px', padding: '0' , fontSize: "20px"}}>
         As a 5th year University of Toronto student I've developed strong skills in Clean Architecture, 
