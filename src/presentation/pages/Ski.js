@@ -9,8 +9,8 @@ function Ski() {
       <Header activePage={3}/>
       <main className="ski-container">
         <p style={{ marginTop: '50px', marginBottom: '0px', padding: '0' , fontSize: "20px"}}>
-        As a 4th year University of Toronto student I've developed strong skills in Clean Architecture, 
-        Front-end design and Full stack application development
+        As a 5th year University of Toronto student I've developed strong skills in Clean Architecture, 
+        Computer Networking and Full Stack Application Development
         </p>
         <main className="inner-ski-container">
           <div className="prog-section">
@@ -18,13 +18,17 @@ function Ski() {
           <ul style={{ margin: '0', padding: '0', listStyleType: 'disc' }}>
             <li>HTML/CSS</li>
             <li>C</li>
+            <li>C++</li>
+            <li>C#</li>
             <li>Go (Golang)</li>
             <li>Java</li>
             <li>JavaScript</li>
             <li>Kotlin</li>
             <li>Python</li>
+            <li>Bash</li>
             <li>SQL</li>
             <li>TypeScript</li>
+            <li>Terraform</li>
           </ul>
           </div>
           <div className="tech-section">
@@ -32,10 +36,10 @@ function Ski() {
           <ul style={{ margin: '0', padding: '0', listStyleType: 'disc' }}>
             <li>Web Development: React, Next.js, Svelte, Bootstrap, Tailwind CSS, Framer Motion, Figma</li>
             <li>Mobile Development: Android Studio, Kotlin</li>
-            <li>Backend Development: Django, Flask, Spring Boot, REST API, MQTT</li>
-            <li>Cloud & DevOps: AWS, DevSecOps, CI/CD</li>
+            <li>Backend Development: Django, Flask, Spring Boot, .NET, REST API, MQTT</li>
+            <li>Cloud & DevOps: AWS, Azure, Jenkins, GitLab, DevSecOps, CI/CD</li>
             <li>Testing: JUnit, Jest</li>
-            <li>Tools & Other: Git, MongoDB, Postman, PyWebIO, RStudio, Unity, Unix Shell Scripting</li>
+            <li>Tools & Other: Git, GitLab, MongoDB, Postman, PyWebIO, RStudio, Unity, Unix Shell Scripting, Power Automate, F5 BIG-IP, Splunk, Draw.io</li>
           </ul>
           </div>
         </main>
