@@ -2,6 +2,8 @@ import '../styles/Edu.css';
 import Header from "../components/Header.js";
 import TeamPhoto from '../../assets/TeamPhoto.JPG';
 import YouthfullyLogo from '../../assets/youthfullyLogo.png';
+import CourseGraph from '../../assets/CourseographyGraph.png';
+import TLIPhoto from '../../assets/TLIPhoto.png';
 
 import React from 'react';
 
@@ -10,72 +12,99 @@ function Edu() {
     <div className="Page">
       <Header activePage={2}/>
       <main className="main-container">
-        <div className="education-section">
-          <h2 style={{ marginBottom: '10px', padding: '0'}}>Education</h2>
+        <div className="education-top">
+          <h2 className="section-title" style={{ marginBottom: '6px' }}>Education</h2>
           <p style={{ margin: '0', padding: '0' }}>
             Currently pursuing a Computer Science Specialist program as part of a Bachelor Of Science degree 
             at the University Of Toronto, St. George Campus. Graduating Spring 2026. GPA: 3.75.
           </p>
-          <br/>
-          <h2 style={{ marginBottom: '10px', padding: '0' }}>Relevant Classes</h2>
-          <ul style={{ margin: '0', padding: '0', listStyleType: 'disc' }}>
-            <li><a href="https://artsci.calendar.utoronto.ca/course/csc207h1" className="link-style">CSC207: Software Design</a></li>
-            <li><a href="https://artsci.calendar.utoronto.ca/course/csc209h1" className="link-style">CSC209: Software Tools & System Programming</a></li>
-            <li><a href="https://artsci.calendar.utoronto.ca/course/csc236h1" className="link-style">CSC236: Introduction to Theory of Computation</a></li>
-            <li><a href="https://artsci.calendar.utoronto.ca/course/csc258h1" className="link-style">CSC258: Computer Organization</a></li>
-            <li><a href="https://artsci.calendar.utoronto.ca/course/csc263h1" className="link-style">CSC263: Data Structures & Analysis</a></li>
-            <li><a href="https://artsci.calendar.utoronto.ca/course/csc300h1" className="link-style">CSC300: Computers and Society</a></li>
-            <li><a href="https://artsci.calendar.utoronto.ca/course/csc301h1" className="link-style">CSC301: Introduction to Software Engineering</a></li>
-            <li><a href="https://artsci.calendar.utoronto.ca/course/csc309h1" className="link-style">CSC309: Programming on the Web</a></li>
-            <li><a href="https://artsci.calendar.utoronto.ca/course/csc318h1" className="link-style">CSC318: The Design of Interactive Computational Media</a></li>
-            <li><a href="https://artsci.calendar.utoronto.ca/course/csc324h1" className="link-style">CSC324: Principles of Programming Languages</a></li>
-            <li><a href="https://artsci.calendar.utoronto.ca/course/csc369h1" className="link-style">CSC369: Operating Systems</a></li>
-            <li><a href="https://artsci.calendar.utoronto.ca/course/csc373h1" className="link-style">CSC373: Algorithm Design, Analysis & Complexity</a></li>
-            <li><a href="https://artsci.calendar.utoronto.ca/course/csc384h1" className="link-style">CSC384: Introduction to Artificial Intelligence</a></li>
-          </ul>
-          <br/>
-          
-          <h2 style={{ marginBottom: '10px', padding: '0' }}>Strongest Competencies</h2>
-          <ul style={{ margin: '0', padding: '0', listStyleType: 'none' }}>
-            <li><span role="img" aria-label="right arrow">➡️</span> Full Stack Application Development</li>
-            <li><span role="img" aria-label="right arrow">➡️</span> DevOps</li>
-            <li><span role="img" aria-label="right arrow">➡️</span> Database Management</li>
-            <li><span role="img" aria-label="right arrow">➡️</span> Clean Software Architecture</li>
-            <li><span role="img" aria-label="right arrow">➡️</span> Front-end Design</li>
-          </ul>
-          <br/>
+        </div>
 
-          <h2 style={{ marginBottom: '10px', padding: '0' }}>Interests</h2>
-          <ul style={{ margin: '0', padding: '0' }}>
-            <li style={{ listStyleType: 'none' }}><span role="img" aria-label="star">⭐</span> Financial Technology Solutions</li>
-            <li style={{ listStyleType: 'none' }}><span role="img" aria-label="star">⭐</span> Natural Language Processing</li>
-            <li style={{ listStyleType: 'none' }}><span role="img" aria-label="star">⭐</span> Web Development</li>
-            <li style={{ listStyleType: 'none' }}><span role="img" aria-label="star">⭐</span> Android Mobile Games</li>
+        <div className="section-card full-width">
+          <h2 className="section-title">Relevant Courses Taken</h2>
+          <img
+            src={CourseGraph}
+            alt="Course prerequisite tree"
+            className="course-graph-img"
+          />
+          <ul className="course-list-small">
+            <li>CSC110Y1: Foundations of Computer Science I</li>
+            <li>CSC111H1: Foundations of Computer Science II</li>
+            <li>CSC207H1: Software Design</li>
+            <li>CSC236H1: Introduction to the Theory of Computation</li>
+            <li>CSC258H1: Computer Organization</li>
+            <li>CSC209H1: Software Tools and Systems Programming</li>
+            <li>CSC263H1: Data Structures and Analysis</li>
+            <li>CSC301H1: Introduction to Software Engineering</li>
+            <li>CSC309H1: Programming on the Web</li>
+            <li>CSC318H1: Interactive Computational Media</li>
+            <li>CSC343H1: Introduction to Databases</li>
+            <li>CSC300H1: Computers and Society</li>
+            <li>CSC369H1: Operating Systems</li>
+            <li>CSC373H1: Algorithm Design and Analysis</li>
+            <li>CSC384H1: Introduction to Artificial Intelligence</li>
+            <li>CSC486H1: Knowledge Representation and Reasoning</li>
+            <li>CSC364H1: Foundations of Computer Security</li>
+            <li>CSC443H1: Database Systems Technology</li>
+            <li>CSC458H1: Computer Networks</li>
+            <li>CSC316H1: Data Visualization: Foundations and Advanced Programming</li>
           </ul>
         </div>
-        
-        <div className="extra-section">
-          <h2 style={{ marginBottom: '10px', padding: '0'}}>Technology Leadership Initiative</h2>
-          <p style={{ margin: '0', padding: '0' }}>
-            Selected as one of 30 students from a graduating class of 500 Computer Science applicants to participate in an industry-integrated learning program. 
-            Developed an NLP solution for Voiceflow and engaged in workshops focused on enhancing technical and leadership skills. Coordinated by Paul Gries, 
-            Michael McCarthy, and other tech leaders and educators at UOFT. <span role="img" aria-label="rocket">🚀</span>
-          </p>
-          <br/>
 
-          <h2 style={{ marginBottom: '10px', padding: '0' }}>Youthfully: Student Coach</h2>
-          <p style={{ margin: '0', padding: '0' }}>
-            Guiding high school students to reach their full potential through 1:1 coaching and personalized post-secondary education training
-          </p>
-          <img src={YouthfullyLogo} style={{ maxWidth: '300px', padding: '20px', height: 'auto', marginBottom: '50px', margin: '0 auto', display: 'block' }} alt="Youthfully Logo" />
+        <div className="edu-grid">
+          <div className="column">
 
-          <h2 style={{ marginBottom: '10px', padding: '0' }}>Activities</h2>
-          <p style={{ margin: '0', padding: '0' }}>
-            I play intermural soccer on the Computer Science Student's Union soccer team.
-            Below is a photo of us after a big win!
-          </p>
-          {/*eslint-disable-next-line jsx-a11y/alt-text*/}
-          <img src={TeamPhoto}/>
+            <div className="section-card">
+              <h2 className="section-title" style={{ marginBottom: '10px' }}>Technology Leadership Initiative</h2>
+              <p style={{ margin: '0', padding: '0' }}>
+                Selected as one of 30 students from a graduating class of 500 Computer Science applicants to participate in an industry-integrated learning program. 
+                Developed an NLP solution for Voiceflow and engaged in workshops focused on enhancing technical and leadership skills. Coordinated by Paul Gries, 
+                Michael McCarthy, and other tech leaders and educators at UOFT. <span role="img" aria-label="rocket">🚀</span>
+              </p>
+              <img src={TLIPhoto} style={{ width: '100%', height: 'auto', marginTop: '12px', borderRadius: '10px' }} alt="Technology Leadership Initiative" />
+            </div>
+
+            <div className="section-card">
+              <h2 className="section-title" style={{ marginBottom: '10px' }}>Youthfully: Student Coach</h2>
+              <p style={{ margin: '0', padding: '0' }}>
+                Guiding high school students to reach their full potential through 1:1 coaching and personalized post-secondary education training
+              </p>
+              <img src={YouthfullyLogo} style={{ maxWidth: '300px', padding: '20px', height: 'auto', margin: '0 auto', display: 'block' }} alt="Youthfully Logo" />
+            </div>
+
+          </div>
+
+          <div className="column">
+            <div className="pill-card">
+              <h3 className="pill-title">Strongest Competencies</h3>
+              <div className="pill-wrap">
+                <span className="pill">Full Stack Application Development</span>
+                <span className="pill">DevOps</span>
+                <span className="pill">Database Management</span>
+                <span className="pill">Clean Software Architecture</span>
+                <span className="pill">Front-end Design</span>
+              </div>
+            </div>
+
+            <div className="pill-card">
+              <h3 className="pill-title">Interests</h3>
+              <div className="pill-wrap">
+                <span className="pill">Financial Technology Solutions</span>
+                <span className="pill">Natural Language Processing</span>
+                <span className="pill">Web Development</span>
+                <span className="pill">Android Mobile Games</span>
+              </div>
+            </div>
+
+            <div className="section-card">
+              <h2 className="section-title" style={{ marginBottom: '10px' }}>Activities</h2>
+              <p style={{ margin: '0', padding: '0' }}>
+                I like to play soccer. Here is a photo of me on the Computer Science Student's Union soccer team after a big win!
+              </p>
+              {/*eslint-disable-next-line jsx-a11y/alt-text*/}
+              <img src={TeamPhoto} style={{ width: '100%', height: 'auto', marginTop: '12px' }}/>
+            </div>
+          </div>
         </div>
       </main>
     </div>

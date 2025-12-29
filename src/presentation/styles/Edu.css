@@ -6,10 +6,9 @@ body {
 
 .main-container {
   display: flex;
-  flex-direction: row;
-  margin-top: 10px;
-  padding-left: 200px;
-  padding-right: 200px;
+  flex-direction: column;
+  gap: 16px;
+  padding: 10px 200px 40px 200px;
   margin: 0 auto;
 }
 
@@ -22,16 +21,107 @@ body {
   padding: 20px;
 }
 
-.extra-section {
-  flex: 1;
-  justify-content: left;
-  align-items: left;
-  text-align: left; 
-  font-size: 20px;
-  padding: 20px;
-}
-
 .link-style {
   text-decoration: none;
   color: inherit; 
+}
+
+.education-top {
+  background: #ffffff;
+  border: 1px solid #e5e7eb;
+  border-radius: 14px;
+  padding: 16px 18px;
+  box-shadow: 0 8px 26px rgba(15, 23, 42, 0.07);
+}
+
+.edu-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
+  gap: 20px;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.section-card {
+  background: #ffffff;
+  border: 1px solid #e5e7eb;
+  border-radius: 14px;
+  padding: 16px 18px;
+  margin-top: 16px;
+  box-shadow: 0 8px 26px rgba(15, 23, 42, 0.07);
+}
+
+.section-title {
+  margin: 0 0 10px 0;
+  padding: 0;
+}
+
+.full-width {
+  width: 100%;
+}
+
+.course-list {
+  margin: 0;
+  padding-left: 18px;
+  column-count: 2;
+  column-gap: 24px;
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+.course-graph-img {
+  width: 100%;
+  height: auto;
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+}
+
+.course-list-small {
+  margin: 12px 0 0 0;
+  padding-left: 18px;
+  column-count: 2;
+  column-gap: 16px;
+  font-size: 14px;
+  line-height: 1.4;
+  color: #1f2937;
+}
+
+.nested {
+  margin-top: 14px;
+  box-shadow: none;
+}
+
+.pill-card {
+  background: #ffffff;
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+  padding: 14px 16px;
+  margin-top: 16px;
+  box-shadow: 0 6px 18px rgba(15, 23, 42, 0.06);
+}
+
+.pill-title {
+  margin: 0 0 10px 0;
+  font-size: 18px;
+}
+
+.pill-wrap {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.pill {
+  display: inline-flex;
+  align-items: center;
+  padding: 6px 10px;
+  background: #f3f4f6;
+  border: 1px solid #e5e7eb;
+  border-radius: 10px;
+  font-size: 14px;
+  color: #111827;
 }
