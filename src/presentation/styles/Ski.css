@@ -1,34 +1,41 @@
-body {
-  background-color: #fdfbf6;
-  margin: 0;
-  padding: 0;
-}
-
 .ski-container {
-  padding-left: 200px;
-  padding-right: 200px;
-  margin: 0 auto;
+  padding: 24px;
+  max-width: 1280px;
+  margin: 12px auto 28px auto;
+  color: var(--text);
 }
 
 .inner-ski-container {
   display: flex;
   flex-direction: row;
+  gap: 20px;
+  flex-wrap: wrap;
 }
 
 .prog-section {
   flex: 1;
+  min-width: 340px;
   justify-content: left;
   align-items: left;
   text-align: left; 
   font-size: 20px;
-  padding: 20px;
+  padding: 20px 22px;
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 18px;
+  box-shadow: 0 18px 54px rgba(0, 0, 0, 0.32);
 }
 
 .tech-section {
   flex: 1;
+  min-width: 340px;
   justify-content: left;
   align-items: left;
   text-align: left; 
   font-size: 20px;
-  padding: 20px;
+  padding: 20px 22px;
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 18px;
+  box-shadow: 0 18px 54px rgba(0, 0, 0, 0.32);
 }

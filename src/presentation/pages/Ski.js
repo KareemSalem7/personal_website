@@ -8,7 +8,7 @@ function Ski() {
     <div className="Page">
       <Header activePage={3}/>
       <main className="ski-container">
-        <p style={{ marginTop: '50px', marginBottom: '0px', padding: '0' , fontSize: "20px"}}>
+        <p style={{ marginBottom: '20px', padding: '0' , fontSize: "20px"}}>
         As a 5th year University of Toronto student I've developed strong skills in Clean Architecture, 
         Computer Networking and Full Stack Application Development
         </p>

@@ -1,23 +1,16 @@
-body {
-  background-color: #fdfbf6;
-  margin: 0;
-  padding: 0;
-}
-
 .project {
   display: flex;
   flex-direction: column;
   justify-content: left;
   align-items: left;
   text-align: left; 
-  margin-left: 50px;
-  margin-right: 100px;
+  max-width: 1280px;
+  margin: 12px auto 28px auto;
   font-size: 20px;
-  padding: 20px;
+  padding: 24px;
   flex: 1;
-  padding-left: 200px;
-  padding-right: 200px;
-  margin: 0 auto;
+  gap: 16px;
+  color: var(--text);
 }
 
 h2 {
@@ -44,4 +37,12 @@ ul {
   margin-top: 5px;
   margin-left: 20px;
   padding-left: 10px;
+}
+
+.project-card {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 18px;
+  padding: 16px 18px;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.35);
 }

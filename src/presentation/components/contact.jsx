@@ -47,7 +47,7 @@ export default Contact;
 
 // Defined styled contact form component
 const StyledContactForm = styled.div`
-  width: 400px;
+  width: 100%;
 
   form {
     display: flex;
@@ -58,14 +58,17 @@ const StyledContactForm = styled.div`
 
     input {
       width: 100%;
-      height: 35px;
-      padding: 7px;
+      height: 42px;
+      padding: 10px 12px;
       outline: none;
-      border-radius: 5px;
-      border: 1px solid rgb(220, 220, 220);
+      border-radius: 10px;
+      border: 1px solid rgba(255, 255, 255, 0.08);
+      background: rgba(255, 255, 255, 0.04);
+      color: #e8ecf2;
 
       &:focus {
-        border: 2px solid rgba(0, 206, 158, 1);
+        border: 1px solid rgba(158, 252, 255, 0.6);
+        box-shadow: 0 0 0 3px rgba(158, 252, 255, 0.15);
       }
     }
 
@@ -73,31 +76,37 @@ const StyledContactForm = styled.div`
       max-width: 100%;
       min-width: 100%;
       width: 100%;
-      max-height: 100px;
-      min-height: 100px;
-      padding: 7px;
+      max-height: 130px;
+      min-height: 130px;
+      padding: 10px 12px;
       outline: none;
-      border-radius: 5px;
-      border: 1px solid rgb(220, 220, 220);
+      border-radius: 10px;
+      border: 1px solid rgba(255, 255, 255, 0.08);
+      background: rgba(255, 255, 255, 0.04);
+      color: #e8ecf2;
 
       &:focus {
-        border: 2px solid rgba(0, 206, 158, 1);
+        border: 1px solid rgba(158, 252, 255, 0.6);
+        box-shadow: 0 0 0 3px rgba(158, 252, 255, 0.15);
       }
     }
 
     label {
       margin-top: 1rem;
+      color: #c8cfdb;
     }
 
     input[type="submit"] {
-      margin-top: 2rem;
-      margin-bottom: 1rem;
+      margin-top: 1.6rem;
+      margin-bottom: 0.6rem;
       cursor: pointer;
-      background: rgb(249, 105, 14);
-      background: white; 
-      color: black; 
-      font-weight: bold;
+      background: linear-gradient(120deg, #9efcff, #8c7bff);
+      color: #05070f; 
+      font-weight: 800;
       border: none;
+      border-radius: 12px;
+      height: 48px;
+      letter-spacing: 0.3px;
     }
   }
 `;

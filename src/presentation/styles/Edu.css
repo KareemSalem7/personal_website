@@ -1,14 +1,9 @@
-body {
-  background-color: #fdfbf6;
-  margin: 0;
-  padding: 0;
-}
-
 .main-container {
   display: flex;
   flex-direction: column;
-  gap: 16px;
-  padding: 10px 200px 40px 200px;
+  gap: 18px;
+  padding: 24px 24px 40px 24px;
+  max-width: 1280px;
   margin: 0 auto;
 }
 
@@ -18,7 +13,8 @@ body {
   align-items: left;
   text-align: left; 
   font-size: 20px;
-  padding: 20px;
+  padding: 0;
+  color: var(--text);
 }
 
 .link-style {
@@ -27,11 +23,11 @@ body {
 }
 
 .education-top {
-  background: #ffffff;
-  border: 1px solid #e5e7eb;
-  border-radius: 14px;
-  padding: 16px 18px;
-  box-shadow: 0 8px 26px rgba(15, 23, 42, 0.07);
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 18px;
+  padding: 18px 20px;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.35);
 }
 
 .edu-grid {
@@ -47,12 +43,13 @@ body {
 }
 
 .section-card {
-  background: #ffffff;
-  border: 1px solid #e5e7eb;
-  border-radius: 14px;
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 18px;
   padding: 16px 18px;
   margin-top: 16px;
-  box-shadow: 0 8px 26px rgba(15, 23, 42, 0.07);
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.35);
+  color: var(--text);
 }
 
 .section-title {
@@ -71,12 +68,13 @@ body {
   column-gap: 24px;
   font-size: 18px;
   line-height: 1.5;
+  color: var(--text);
 }
 
 .course-graph-img {
   width: 100%;
   height: auto;
-  border: 1px solid #e5e7eb;
+  border: 1px solid var(--border);
   border-radius: 12px;
 }
 
@@ -87,7 +85,7 @@ body {
   column-gap: 16px;
   font-size: 14px;
   line-height: 1.4;
-  color: #1f2937;
+  color: var(--muted);
 }
 
 .nested {
@@ -96,12 +94,13 @@ body {
 }
 
 .pill-card {
-  background: #ffffff;
-  border: 1px solid #e5e7eb;
-  border-radius: 12px;
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 14px;
   padding: 14px 16px;
   margin-top: 16px;
-  box-shadow: 0 6px 18px rgba(15, 23, 42, 0.06);
+  box-shadow: 0 14px 40px rgba(0, 0, 0, 0.28);
+  color: var(--text);
 }
 
 .pill-title {
@@ -119,9 +118,9 @@ body {
   display: inline-flex;
   align-items: center;
   padding: 6px 10px;
-  background: #f3f4f6;
-  border: 1px solid #e5e7eb;
+  background: rgba(255, 255, 255, 0.06);
+  border: 1px solid var(--border);
   border-radius: 10px;
   font-size: 14px;
-  color: #111827;
+  color: var(--text);
 }

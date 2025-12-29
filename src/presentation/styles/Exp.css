@@ -1,23 +1,16 @@
-body {
-  background-color: #fdfbf6;
-  margin: 0;
-  padding: 0;
-}
-
 .exp-container {
   display: flex;
   flex-direction: column;
   justify-content: left;
   align-items: left;
   text-align: left; 
-  margin-left: 100px;
-  margin-right: 100px;
+  max-width: 1280px;
+  margin: 12px auto 28px auto;
   font-size: 20px;
-  padding: 20px;
+  padding: 24px;
   flex: 1;
-  padding-left: 200px;
-  padding-right: 200px;
-  margin: 0 auto;
+  gap: 16px;
+  color: var(--text);
 }
 
 .job-details {
@@ -35,6 +28,14 @@ body {
 
 .job-skills {
   font-size: 16px;
-  color: #374151;
+  color: var(--muted);
   margin: 4px 0 10px 0;
+}
+
+.exp-card {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 18px;
+  padding: 16px 18px 12px;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.35);
 }
