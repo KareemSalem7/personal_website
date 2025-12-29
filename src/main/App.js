@@ -12,31 +12,35 @@ function App() {
 
   useEffect(() => {
     const ids = ['home', 'education', 'skills', 'experience', 'projects'];
-    const observer = new IntersectionObserver(
-      (entries) => {
-        const visible = entries
-          .filter(function (e) { return e.isIntersecting; })
-          .sort(function (a, b) { return b.intersectionRatio - a.intersectionRatio; });
-        if (visible.length > 0 && visible[0].target && visible[0].target.id) {
-          setActiveSection(visible[0].target.id);
+
+    const updateActive = () => {
+      const scrollPos = window.scrollY + 140; // offset for sticky header
+      let current = activeSection;
+      ids.forEach((id) => {
+        const el = document.getElementById(id);
+        if (el) {
+          const top = el.offsetTop;
+          const bottom = top + el.offsetHeight;
+          if (scrollPos >= top && scrollPos < bottom) {
+            current = id;
+          }
         }
-      },
-      {
-        threshold: [0.3, 0.6],
-        rootMargin: '-20% 0px -40% 0px',
-      }
-    );
+      });
+      setActiveSection(current);
+    };
 
-    ids.forEach((id) => {
-      const el = document.getElementById(id);
-      if (el) observer.observe(el);
-    });
-
-    return () => observer.disconnect();
-  }, []);
+    updateActive();
+    window.addEventListener('scroll', updateActive);
+    window.addEventListener('resize', updateActive);
+    return () => {
+      window.removeEventListener('scroll', updateActive);
+      window.removeEventListener('resize', updateActive);
+    };
+  }, [activeSection]);
 
   const handleNavigate = (id, evt) => {
     if (evt) evt.preventDefault();
+    setActiveSection(id);
     const el = document.getElementById(id);
     if (el) {
       el.scrollIntoView({ behavior: 'smooth', block: 'start' });
