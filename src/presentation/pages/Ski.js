@@ -10,8 +10,7 @@ function Ski({ showHeader = true }) {
       <div className="section-heading">Skills</div>
       <main className="ski-container">
         <p style={{ marginBottom: '20px', padding: '0' , fontSize: "20px"}}>
-        As a 5th year University of Toronto student I've developed strong skills in Clean Architecture, 
-        Computer Networking and Full Stack Application Development
+        My strongest skills are in Clean Architecture, Computer Networking and Full Stack Application Development.
         </p>
         <main className="inner-ski-container">
           <div className="prog-section">
