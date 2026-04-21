@@ -48,7 +48,6 @@ function Edu({ showHeader = true }) {
             <li>CSC364H1: Foundations of Computer Security</li>
             <li>CSC443H1: Database Systems Technology</li>
             <li>CSC458H1: Computer Networks</li>
-            <li>CSC316H1: Data Visualization: Foundations and Advanced Programming</li>
           </ul>
         </div>
 
