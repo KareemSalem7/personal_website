@@ -28,6 +28,10 @@ function Edu({ showHeader = true }) {
             className="course-graph-img"
           />
           <ul className="course-list-small">
+            <li>MAT137Y1: Calculus with Proofs</li>
+            <li>MAT223H1: Linear Algebra I</li>
+            <li>MAT235Y1: Multivariable Calculus</li>
+            <li>STA247H1: Probability with Computer Applications</li>
             <li>CSC110Y1: Foundations of Computer Science I</li>
             <li>CSC111H1: Foundations of Computer Science II</li>
             <li>CSC207H1: Software Design</li>
