@@ -16,8 +16,7 @@ function Edu({ showHeader = true }) {
         <div className="education-top">
           <h2 className="section-title" style={{ marginBottom: '6px' }}>Education</h2>
           <p style={{ margin: '0', padding: '0' }}>
-            Currently pursuing a Computer Science Specialist program as part of a Bachelor Of Science degree 
-            at the University Of Toronto, St. George Campus. Graduating Spring 2026. GPA: 3.75.
+            Graduated with a Bachelor of Science in Computer Science (Specialist) from the University of Toronto, St. George Campus, in Spring 2026 with a GPA of 3.75.
           </p>
         </div>
 
@@ -44,8 +43,8 @@ function Edu({ showHeader = true }) {
             <li>CSC369H1: Operating Systems</li>
             <li>CSC373H1: Algorithm Design and Analysis</li>
             <li>CSC384H1: Introduction to Artificial Intelligence</li>
-            <li>CSC486H1: Knowledge Representation and Reasoning</li>
             <li>CSC364H1: Foundations of Computer Security</li>
+            <li>CSC486H1: Knowledge Representation and Reasoning</li>
             <li>CSC443H1: Database Systems Technology</li>
             <li>CSC458H1: Computer Networks</li>
           </ul>
@@ -67,7 +66,7 @@ function Edu({ showHeader = true }) {
             <div className="section-card">
               <h2 className="section-title" style={{ marginBottom: '10px' }}>Youthfully: Student Coach</h2>
               <p style={{ margin: '0', padding: '0' }}>
-                Guiding high school students to reach their full potential through 1:1 coaching and personalized post-secondary education training
+              Guided high school students pursuing Computer Science through individualized mentorship and personalized post-secondary preparation, helping them reach their full academic and career potential.
               </p>
               <img src={YouthfullyLogo} style={{ maxWidth: '300px', padding: '20px', height: 'auto', margin: '0 auto', display: 'block' }} alt="Youthfully Logo" />
             </div>
